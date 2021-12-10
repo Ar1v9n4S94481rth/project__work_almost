@@ -1,0 +1,47 @@
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:sticky;
+    top: 0;
+    cursor:pointer;
+}
+.nav-list{
+    display:flex;
+    align-items:center;
+    width:50%;
+    /* background-color:rgb(10, 10, 8) */
+}
+.nav-list li a{
+    text-decoration:none;
+    color: black;
+}   
+.nav-list li a:hover{
+    text-decoration:none;
+    color:grey;
+}   
+.nav-list li{
+    list-style:none;
+    padding: 26px 30px;
+}
+.rightNav{
+    width:50%;
+    /* background-color:rgb(141, 38, 238); */
+    text-align:right;
+    padding: 0 23px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    width: 0.7%;
+    display:contents;
+    justify-content:center;
+    align-items:center;
+}
+.logo img{
+    width: 70px;
+    border-radius: 2px;
+}
